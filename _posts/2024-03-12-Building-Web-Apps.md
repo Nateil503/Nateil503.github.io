@@ -1,5 +1,5 @@
 ## Building Web Apps Lab
-Here we go through the steps of building a Web App and properly hosting it after a few bug fixes.
+Here we go through the steps of building a Web App/Virtual Enviroment and properly hosting it after a few bug fixes.
 
 ![buildingwebapp1](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/34400c23-c9aa-496b-9d97-508cc2622bbe)
 ![buildingwebapp2](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/214c9d45-8ab2-4c66-adfb-df49cae9f032)
