@@ -43,3 +43,6 @@ Updated source code: in order to use the SDK (Boto.3), insert our math result in
 
 The deploy and test is successful, the same as before but when we go to our DynamoDB table, we now have an output. 
 ![17](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/837be5ee-ce22-4511-9da4-055dc1d0940b)
+
+Update the source Index code; which includes aesthetic changes via the CSS code, the body heading and an input form, and the call API that would hook us up in the API gateway endpoint (using the URL) that would send the information for us to receive the full calculation. Once the file is updated and zipped, we will redeploy it using amplify.
+![18](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/a0f59c88-2913-4a87-95f7-de26f0162c33)
