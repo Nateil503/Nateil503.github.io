@@ -46,3 +46,9 @@ The deploy and test is successful, the same as before but when we go to our Dyna
 
 Update the source Index code; which includes aesthetic changes via the CSS code, the body heading and an input form, and the call API that would hook us up in the API gateway endpoint (using the URL) that would send the information for us to receive the full calculation. Once the file is updated and zipped, we will redeploy it using amplify.
 ![18](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/a0f59c88-2913-4a87-95f7-de26f0162c33)
+![19](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/b9d3ef33-115d-4029-9038-8d35515117ce)
+![20](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/a7766991-02d9-4af2-9e54-980ce0121533)
+The App is complete! Any number being input into fields will produce a calculated output!
+![21](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/db76806a-363f-4b9e-8e50-563011ee30b5)
+
+
