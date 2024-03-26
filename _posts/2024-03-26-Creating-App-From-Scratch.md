@@ -25,7 +25,7 @@ Success! The lambda code is working and you will know this due to the "statusCod
 Creating an API and giving it permission to invoke the Lambda Function.
 ![9](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/38453036-7b43-4537-a022-40bde315b151)
 
-<title>Enable C.O.R.S (Cross Origin Resource Sharing)</title>
+Enable C.O.R.S (Cross Origin Resource Sharing)
 ![10](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/07336b1c-0a6e-42de-ad92-d2da252b9d8a)
 
 Once the CORS has been activated, we deploy the API. We would need to create a stage/monitor stage actions after validating the resources.
