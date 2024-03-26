@@ -1,6 +1,7 @@
 ## Building an App From Scratch! 
 
 First we created an html file with a simple code.
+
 ![3](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/7416069c-c393-430a-9210-668f58349d82)
 
 Then we uploaded the code to AWS Amplify, in order to start a Manual Deployment
