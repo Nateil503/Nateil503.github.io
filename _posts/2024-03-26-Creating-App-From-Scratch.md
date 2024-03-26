@@ -21,3 +21,15 @@ Create a test to determine whether the source code works. After saving and deplo
 
 Success! The lambda code is working and you will know this due to the "statusCode" being 200 and the "result" being 8.0.
 ![8](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/599b05dd-2714-453b-9754-3f1897706f5b)
+
+Creating an API and giving it permission to invoke the Lambda Function.
+![9](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/38453036-7b43-4537-a022-40bde315b151)
+
+Enable C.O.R.S (Cross Origin Resource Sharing)
+![10](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/07336b1c-0a6e-42de-ad92-d2da252b9d8a)
+
+Once the CORS has been activated, we deploy the API. We would need to create a stage/monitor stage actions after validating the resources.
+![12](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/b568b9db-5742-458c-bb59-e575c8a7608d)
+![13](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/7c2b85c3-f164-4b88-90d9-08c9cb782b94)
+
+Incorporate a database into the site.
