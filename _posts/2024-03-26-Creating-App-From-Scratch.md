@@ -6,8 +6,8 @@ First we created an html file with a simple code.
 
 Then we uploaded the code to AWS Amplify, in order to start a Manual Deployment
 ![2](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/c29d726c-2ace-4629-b538-086f4a3a042e)
-
 ![1](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/63b185d0-0c65-4da0-b4fc-8b85c3712ab1)
+
 This is the output of the code before any changes are made. Initial successful deployment.
 ![4](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/a3273c3d-e30f-4dda-9909-e6b10b516415)
 
@@ -50,6 +50,7 @@ Update the source Index code; which includes aesthetic changes via the CSS code,
 ![18](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/a0f59c88-2913-4a87-95f7-de26f0162c33)
 ![19](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/b9d3ef33-115d-4029-9038-8d35515117ce)
 ![20](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/a7766991-02d9-4af2-9e54-980ce0121533)
+
 The App is complete! Any number being input into fields will produce a calculated output!
 ![21](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/db76806a-363f-4b9e-8e50-563011ee30b5)
 
