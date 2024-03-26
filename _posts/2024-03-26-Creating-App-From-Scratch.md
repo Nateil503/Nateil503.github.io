@@ -15,3 +15,9 @@ Run Python code using the Python math library. First we create the function usin
 
 Original source code with the Lambda handler highlighted, which is common to all lambda functions. 
 ![6](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/99a486a0-24a2-4557-b266-7d597a623fbe)
+
+Create a test to determine whether the source code works. After saving and deploying the code, hit the dropdown menu next to test and configure the test event. 
+![7](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/b9a5ca21-4c8c-4786-96f0-3e44c316f2ea)
+
+Success! The lambda code is working and you will know this due to the "statusCode" being 200 and the "result" being 8.0.
+![8](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/599b05dd-2714-453b-9754-3f1897706f5b)
