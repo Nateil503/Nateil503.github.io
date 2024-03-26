@@ -37,3 +37,7 @@ Create a new service role then save and deplpoy. Make sure Allow box is checked.
 
 After the success message. We will check to see if the link is valid. Voila!
 ![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/1ceb6b28-b4a9-43bc-bafd-ac6a329a145d)
+
+Now to update the code just to see if we are having continuous maintenance on the site. We will update this text from "how does this work?" to "how does this thing work?"
+![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/60240beb-3a51-49da-a3e4-4e5a92e83a6d)
+
