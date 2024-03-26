@@ -32,4 +32,14 @@ Once the CORS has been activated, we deploy the API. We would need to create a s
 ![12](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/b568b9db-5742-458c-bb59-e575c8a7608d)
 ![13](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/7c2b85c3-f164-4b88-90d9-08c9cb782b94)
 
-Incorporate a database into the site.
+Incorporate a database into the site. Using DynamoDB (noSQL database). Give the lambda function permission to write to the database. 
+![14](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/3432e16e-c559-4342-8398-f2f11ce7d611)
+
+We specify permissions using JSON. Input the ARN code copied from the PowerOfMathDatabase (found under additional info)
+![15](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/77ee6e0a-746e-48fd-8f62-71f9499b89cf)
+
+Updated source code: in order to use the SDK (Boto.3), insert our math result into our table, and grabbing the current time. 
+![16](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/7ae4db0f-2f92-4d16-95b9-7bf85dcd2f6f)
+
+The deploy and test is successful, the same as before but when we go to our DynamoDB table, we now have an output. 
+![17](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/837be5ee-ce22-4511-9da4-055dc1d0940b)
