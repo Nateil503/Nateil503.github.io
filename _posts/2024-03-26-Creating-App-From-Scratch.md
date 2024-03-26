@@ -12,3 +12,6 @@ This is the output of the code before any changes are made. Initial successful d
 
 Run Python code using the Python math library. First we create the function using Lambda.
 ![5](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/70131776-175a-4cfc-8572-22ff52ade717)
+
+Original source code with the Lambda handler highlighted, which is common to all lambda functions. 
+![6](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/99a486a0-24a2-4557-b266-7d597a623fbe)
