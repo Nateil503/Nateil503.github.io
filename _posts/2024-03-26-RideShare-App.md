@@ -145,7 +145,7 @@ Voila! Here's the map. Click any location and a unicorn should be on the way!
 ![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/48d93441-8e43-446a-9724-390dbd6a3c30)
 ![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/eaa30474-c044-400d-8779-844c5407f500)
 
-The DynamoDB should be updated with the items returned, with the credentials of the ride requestor. 
+The DynamoDB should be updated with the items returned, with the credentials of the ride requester. 
 ![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/58394abb-37b3-41cf-b7f1-323b241ac44b)
 
 And with that, we have our RideShare app! 
