@@ -102,6 +102,9 @@ Now we will create the lambda function itself. Don't let the runtime default to 
 ![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/f3db8116-1e0f-4b29-8716-22e455b6dce4)
 ![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/0a3937c4-19cd-467a-807c-affa0a4e74d0)
 
+Once we've created the function we can now edit the code. AWS provided a sample code for the rideshare, to which you can edit certain elements. I've decided to change the names up a bit. 
+![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/9d79c5e8-8c76-4c3c-ac09-9b040754ef9d)
+
 
 
 
