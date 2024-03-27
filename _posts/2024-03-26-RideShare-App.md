@@ -63,6 +63,18 @@ You will need to retain the credentials for the User Pool by copying the ID, the
 ![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/ae14fdb6-7a60-471e-8f98-561e96611e27)
 
 Return to the Repository and enter the JavaScript folder, then open the configuration code. You will then input the User Pool & Client IDs. Make sure the region is updated as well.
+
 ![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/147a5489-f4bb-4370-a4e4-35092689aa58)
+
+**Let's Sign Up!**
+Once the the updates have deployed we will refresh the site and attempt to sign up. 
+![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/d7cbc20f-3098-4727-9f42-a6a752cb5ec4)
+It will then generate an email to send a verification code, which you will then input into the required fields. 
+
+![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/b5428b8c-6afd-4556-8776-5ecd61f1fd3f)
+![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/d65e2b62-a05a-4809-abc4-c384dc9242a2)
+
+
+
 
 
