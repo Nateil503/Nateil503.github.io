@@ -62,5 +62,7 @@ You will need to retain the credentials for the User Pool by copying the ID, the
 ![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/4ca05b08-d472-4c64-b505-be0711d1657a)
 ![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/ae14fdb6-7a60-471e-8f98-561e96611e27)
 
+Return to the Repository and enter the JavaScript folder, then open the configuration code. You will then input the User Pool & Client IDs. Make sure the region is updated as well.
+![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/a2a10bc1-d9c9-46fa-8baf-155b290fe926)
 
 
