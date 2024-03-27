@@ -35,7 +35,7 @@ I ran into some trouble due to the source of the S3 bucket being in a different 
 **Create a new repository** 
 
 ![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/7d1ee3ee-d18e-4564-b0b0-dcdc0f9cef74)
-Create a new service role then save and deplpoy. Make sure Allow box is checked.
+Create a new service role then save and deploy. Make sure Allow box is checked.
 ![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/479ae02c-2c11-4018-b8b8-52d65ea44d29)
 ![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/b870e02f-0acc-44a6-84cb-07953b84290a)
 
@@ -148,5 +148,5 @@ Voila! Here's the map. Click any location and a unicorn should be on the way!
 The DynamoDB should be updated with the items returned, with the credentials of the ride requestor. 
 ![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/58394abb-37b3-41cf-b7f1-323b241ac44b)
 
-
+And with that, we have our RideShare app! 
 
