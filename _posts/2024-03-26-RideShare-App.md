@@ -72,7 +72,7 @@ Once the the updates have deployed we will refresh the site and attempt to sign 
 It will then generate an email to send a verification code, which you will then input into the required fields. 
 
 ![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/b5428b8c-6afd-4556-8776-5ecd61f1fd3f)
-![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/d65e2b62-a05a-4809-abc4-c384dc9242a2)
+![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/b2bf19bf-75e8-45e9-8acc-19cff1cd95d7)
 
 
 
