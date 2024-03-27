@@ -28,7 +28,7 @@ I ran into some trouble due to the source of the S3 bucket being in a different 
 
 ![8](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/f4db4860-5f99-46de-a217-aa613192b947)
 
-Create a new repository 
+**Create a new repository** 
 
 ![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/7d1ee3ee-d18e-4564-b0b0-dcdc0f9cef74)
 Create a new service role then save and deplpoy. Make sure Allow box is checked.
@@ -54,8 +54,13 @@ We are going to use Cognito to allow users to sign up for the services. You do t
 ![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/560f35b3-7bcb-4627-8b71-c4295cba8e6d)
 You will be able to customize every attribute to go along with the user interface and their options on signing up. Also cannot be changed after user pool has been created.
 
-An email for verification can be automated in order to send emails to the user. You can customize this address.
+An email for verification can be automated in order to send emails to the user. You can customize this address. Send email with cognito will be better for a temporary start.
 ![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/d419a2ae-4bc8-4fbc-bbba-53a4c2dd575c)
+![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/aae81297-5810-4f3c-815b-9370e0611018)
+
+You will need to retain the credentials for the User Pool by copying the ID, then copying the client ID at the bottom of the page.
+![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/4ca05b08-d472-4c64-b505-be0711d1657a)
+![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/ae14fdb6-7a60-471e-8f98-561e96611e27)
 
 
 
