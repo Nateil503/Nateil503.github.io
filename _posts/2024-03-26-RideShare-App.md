@@ -104,6 +104,25 @@ Now we will create the lambda function itself. Don't let the runtime default to 
 
 Once we've created the function we can now edit the code. AWS provided a sample code for the rideshare, to which you can edit certain elements. I've decided to change the names up a bit. 
 ![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/9d79c5e8-8c76-4c3c-ac09-9b040754ef9d)
+**Deploy the code any time changes are made!**
+
+Create a test event so that you can see if the code works.
+![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/ebd67dd4-c1b0-4b5f-819c-2ad4cf4d3714)
+Success! The 201 and the unicorn credentials are an indicator that the code test was successful. 
+![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/d1ee2cb6-da46-4052-ba04-c02f8627dba6)
+![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/dd1aea50-e514-4905-b968-996c2f7589e5)
+
+**Create an API**
+
+We would need to create an API to ensure the flow of information is seamless and that we face no technical difficulties. When choosing an endpoint; edge-optimized is better for cross-internet actions.
+![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/1f0abc3b-8a92-4c92-947c-0f25b17b1754)
+
+We would create an authorizer to authenticate calls next, which is basically the way of connecting the API Gateway's JWTs or JSON webtokens that are returned by Cognito. 
+![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/468a9e25-edb2-4d2d-a8dd-526e5b937b85)
+
+Now the authorizer token that we copied earlier comes into play now. Input it then hit 'test authorizer' if the result is a code of 200, it was a success.
+![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/2e1d29d0-cf52-419d-b90e-482a64318151)
+![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/90991233-fd3c-4acb-94cd-9b649f0b2aca)
 
 
 
