@@ -49,7 +49,13 @@ We will then commit changes. (Input author name and email for trailing purposes)
 **Allowing user interaction**
 We are going to use Cognito to allow users to sign up for the services. You do this by creating a user pool and choosing the sign-in options. 
 ![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/6c66f638-c810-4e1a-a5b3-05ff8bc86610)
+![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/d8f37c4d-9ac9-4c15-940a-8f776c87c1ef)
+![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/48f55636-f14f-4c5d-8bb5-84b2bac05e7b)
+![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/560f35b3-7bcb-4627-8b71-c4295cba8e6d)
+You will be able to customize every attribute to go along with the user interface and their options on signing up. Also cannot be changed after user pool has been created.
 
+An email for verification can be automated in order to send emails to the user. You can customize this address.
+![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/d419a2ae-4bc8-4fbc-bbba-53a4c2dd575c)
 
 
 
