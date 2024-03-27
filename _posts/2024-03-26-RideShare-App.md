@@ -2,7 +2,11 @@
 
 **Here we will create a rideshare app for Unicorns.**
 
-Starting by creating the repository.
+Starting by creating an account on ArcGis. This will allow for location tracking which is necessary for the app. 
+![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/dd28709d-4a60-4024-bbf4-e293e5360f42)
+
+
+Create the repository.
 
 ![1 2](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/c98f5468-d578-4505-8a25-744ab1a0dabb)
 
@@ -132,6 +136,17 @@ Next we need to create a resource so that we can connect to the Lambda function.
 We then create the method so that the Lambda function is integrated. Make sure to toggle the proxy integration. After creating the method, edit the method and in the drop down Authorization menu... select the user pool authorizer.
 ![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/6db462e7-6dd6-4188-9c6d-b98456c6c6cf)
 ![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/7ea50c52-5b5f-4a87-b0d8-e097576341a2)
+
+Deploy the API. Then grab the invoke URL. Input the URL into the config code from before. 
+![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/c118520a-825c-4391-a15d-44540d6384fa)
+![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/7eb5f489-9c98-460c-9776-832eda080d0a)
+
+Voila! Here's the map. Click any location and a unicorn should be on the way!
+![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/48d93441-8e43-446a-9724-390dbd6a3c30)
+![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/eaa30474-c044-400d-8779-844c5407f500)
+
+The DynamoDB should be updated with the items returned, with the credentials of the ride requestor. 
+![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/58394abb-37b3-41cf-b7f1-323b241ac44b)
 
 
 
