@@ -124,7 +124,14 @@ Now the authorizer token that we copied earlier comes into play now. Input it th
 ![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/2e1d29d0-cf52-419d-b90e-482a64318151)
 ![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/90991233-fd3c-4acb-94cd-9b649f0b2aca)
 
+Next we need to create a resource so that we can connect to the Lambda function. The URL used to invoke the API Gateway call is different from the URL used for the site (Amplify), which is why it's necessary to check the CORS box. (Cross-Domain)
 
+
+![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/10e31bdf-6e41-4c5d-ad60-b7e0560dafcf)
+
+We then create the method so that the Lambda function is integrated. Make sure to toggle the proxy integration. After creating the method, edit the method and in the drop down Authorization menu... select the user pool authorizer.
+![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/6db462e7-6dd6-4188-9c6d-b98456c6c6cf)
+![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/7ea50c52-5b5f-4a87-b0d8-e097576341a2)
 
 
 
