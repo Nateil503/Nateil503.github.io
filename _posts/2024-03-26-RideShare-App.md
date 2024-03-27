@@ -6,7 +6,7 @@ Starting by creating an account on ArcGis. This will allow for location tracking
 ![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/dd28709d-4a60-4024-bbf4-e293e5360f42)
 
 
-Create the repository.
+Create the repository through CodeCommit.
 
 ![1 2](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/c98f5468-d578-4505-8a25-744ab1a0dabb)
 
