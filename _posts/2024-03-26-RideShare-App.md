@@ -82,5 +82,27 @@ The authentication token will then be provided on the page where the map is supp
 We will then create a table using DynamoDB
 ![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/0adb523e-0202-469e-8fe4-a83bd84adbd1)
 
+Once the table is created we will grab the ARN from the General Information section right under 'additional info'
+![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/0f40ff53-6809-4cda-89b2-7b914f500d5a)
+
+**Lambda Integration**
+
+Create a role for lambda permissions 
+![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/e847092e-511f-40c0-a8c3-71fb33ef7322)
+![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/e68eaf8b-914a-41c8-835e-5bd9a2386f56)
+![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/cf6f58e8-cbb0-48f2-a491-387dbed1f9d7)
+
+Now we need to add permissions. Which is to write to a DynamoDB table. We would select the role and then create an inline policy. Best practice is to only give the required permission for the task at hand, to avoid unnecessary interference. 
+![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/046351bd-7239-4dfd-b8b1-bd235d5f3c28)
+![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/2c9aec63-db13-483e-ac41-afc86e9823d3)
+![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/1adf9a4b-8cb8-4682-ae1a-8fc2d1748ab1)
+
+Now we will create the lambda function itself. Don't let the runtime default to the updated node. We specifically need Node.16. Change the execution role to an existing role which would be the lambda function we just created.
+
+![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/f3db8116-1e0f-4b29-8716-22e455b6dce4)
+![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/0a3937c4-19cd-467a-807c-affa0a4e74d0)
+
+
+
 
 
