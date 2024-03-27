@@ -73,8 +73,14 @@ It will then generate an email to send a verification code, which you will then 
 
 ![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/b5428b8c-6afd-4556-8776-5ecd61f1fd3f)
 ![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/b2bf19bf-75e8-45e9-8acc-19cff1cd95d7)
+![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/91b0e711-b3bb-4bfd-998c-d2ce8f36e8c3)
 
+Amazing right?!
 
+The authentication token will then be provided on the page where the map is supposed to be.
+![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/ed922236-8305-440e-92cf-7b3ee4417f71)
+We will then create a table using DynamoDB
+![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/0adb523e-0202-469e-8fe4-a83bd84adbd1)
 
 
 
