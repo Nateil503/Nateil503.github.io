@@ -68,7 +68,7 @@ The repository is up and running
 ![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/679d2ca4-574d-4607-8355-0b81b4caaa81)
 
 Now that we've added roles and updated the backend, we can now deploy the amplify app which will give us an actual URL instead of the local host
-![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/d674a995-35d5-4745-98f5-ec0200030416
+![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/d674a995-35d5-4745-98f5-ec0200030416)
 
 
 
