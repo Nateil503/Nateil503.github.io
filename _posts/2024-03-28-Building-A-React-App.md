@@ -50,4 +50,18 @@ Once all code is inputted we can refresh the localhost tab and you will see the 
 Now that we've got a running source code and app, it's time to push it to the front end so that the public can interact with it. 
 ![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/887d752c-a505-4be6-859a-b4c73cb81556)
 
+Create a new repository
+![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/82d5266e-cde5-4980-ad4c-ce49a4eeb109)
+
+I ran into a bit of an issue due to not having the git software downloaded on the console I'm using. Once I downloaded git, the interface of the code changed a bit and now certain pathways are open. 
+![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/1ee66bf0-5e2c-4f66-9eb1-e6233ced8c81)
+
+The gitpush commands were not working since I did not have a master branch available, so I ended up linking the git software I just downloaded, to my github account to be able to do so. Now because there was no master branch, the main couldn't be created. 
+![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/205caa79-6885-430b-97b4-f9a172e471a9)
+![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/0c6d9f29-6b2c-49f1-91d9-c33d3627b6bb)
+
+Now go back to Amplify to add a repository branch for the source code to be hosted on Github.
+![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/17ace537-5d99-4433-8c36-29b8196e5993)
+
+
 
