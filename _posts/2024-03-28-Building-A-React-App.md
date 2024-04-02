@@ -60,12 +60,13 @@ The gitpush commands were not working since I did not have a master branch avail
 ![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/205caa79-6885-430b-97b4-f9a172e471a9)
 ![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/0c6d9f29-6b2c-49f1-91d9-c33d3627b6bb)
 
+The repository is up and running 
+![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/679d2ca4-574d-4607-8355-0b81b4caaa81)
+
 Now go back to Amplify to add a repository branch for the source code to be hosted on Github. Once we have chosen the backend source and are getting through the building of the app, make sure the CI/CD continuous deployment is checked so any updates will be automatically integrated into the app. You will need to create a new role for the Amplify backend in order to have that seamless connection. 
 ![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/17ace537-5d99-4433-8c36-29b8196e5993)
 ![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/15e8ad8a-f440-44cd-ae57-8df3dfd2f53d)
 
-The repository is up and running 
-![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/679d2ca4-574d-4607-8355-0b81b4caaa81)
 
 Now that we've added roles and updated the backend, we can now deploy the amplify app which will give us an actual URL instead of the local host
 ![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/d674a995-35d5-4745-98f5-ec0200030416)
