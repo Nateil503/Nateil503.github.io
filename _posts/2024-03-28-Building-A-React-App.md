@@ -1,4 +1,4 @@
-## Building a React App!
+## Building a React App! (CI/CD)
 
 **Here we are going to build a react app with the components of Amplify, Cognito, and the use of GitHub hosting.**
 
