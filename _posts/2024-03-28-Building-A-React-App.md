@@ -68,10 +68,10 @@ Now go back to Amplify to add a repository branch for the source code to be host
 ![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/15e8ad8a-f440-44cd-ae57-8df3dfd2f53d)
 
 
-Now that we've added roles and updated the backend, we can now deploy the amplify app which will give us an actual URL instead of the local host
+Now that we've added roles and updated the backend, we can now deploy the amplify app which will give us an actual URL instead of the local host.
 ![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/d674a995-35d5-4745-98f5-ec0200030416)
 
-
+Once the code has successfully deployed, the link provided should take you to a working site with the same app interface as the local host. Whoo!
 
 
 
