@@ -16,6 +16,7 @@ We will then create the initiating input. These are called utterances and they w
 
 We have to input the responses that automate after input from the user. Within the creation of each slot we can determine how to order the steps of the conversation. 
 ![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/c5473b89-f02a-4a32-a755-6f6fcb008475)
+Once this has been setup and the proper prompt-response slots have been created, we can now interact with the chatbot.
 
 Now we have a conversation!
 ![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/544ae6a1-5f98-4d4b-8e7d-8f52c600cf2e)
