@@ -20,3 +20,8 @@ Once this has been setup and the proper prompt-response slots have been created,
 
 Now we have a conversation!
 ![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/544ae6a1-5f98-4d4b-8e7d-8f52c600cf2e)
+
+Next, we need to envoke a lambda function to be able to make the chatbot more dynamic in regards to correct/incorrect input.
+![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/6af0bdea-1592-469a-8cbe-78cc79aaa884)
+![image](https://github.com/Nateil503/Nateil503.github.io/assets/114696114/ac80a2c6-7283-4149-adb9-92f886f3fbf6)
+
