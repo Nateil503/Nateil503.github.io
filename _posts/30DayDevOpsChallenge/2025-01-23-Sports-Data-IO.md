@@ -8,6 +8,8 @@ AWS Lambda function will send a request to the Sports API and return data that w
 The data push will be scheduled through Eventbridge which gives periodic updates and initiates the lambda function to make the request. 
 
 **PROCESS** 
+
+**Create the Topic**
 Log into the console and go to the 'SNS' page. Create a topic. This one will be 'gd-topic' for Game Day Topic. Make sure to choose standard for the topic type.
 ![image](https://github.com/user-attachments/assets/ae1f77f1-3efe-4976-9ed5-71a1e9ad5f2c)
  
@@ -20,3 +22,12 @@ After subscribing, you should receive an email asking for confirmation of the su
 ![image](https://github.com/user-attachments/assets/fb7dd480-6d3c-4f18-8fcd-9678620707e6)
 ![image](https://github.com/user-attachments/assets/e7649218-2a10-4316-8186-a9efa3963cc5)
 ![image](https://github.com/user-attachments/assets/1e045556-e0d3-4a6e-930b-f705b8f9efc4)
+
+
+**Create The Lambda Function Policy**
+Go to the IAM section, probably best to open it up in a different tab. Go into policies and create one. When selecting a service, choose SNS. It will then ask you what to input, where we will switch over to the JSON tab. 
+![image](https://github.com/user-attachments/assets/c6cc2326-5052-489f-940c-f18027c72fb0)
+
+When we get over to the JSON tab it will give us the ability to code exactly what we want. Copy your created code/cloned repository and paste here. You will need to gather credentials for the highlighted portion. You can find these credentials in the topic tab. Make sure when pasting that it is within the quotation marks. 
+![image](https://github.com/user-attachments/assets/9c39aa3b-37e1-459f-ab3e-bf4a560ce472)
+![image](https://github.com/user-attachments/assets/a577e7d4-d354-40c6-b416-5e9130f377f7)
