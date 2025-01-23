@@ -31,3 +31,13 @@ Go to the IAM section, probably best to open it up in a different tab. Go into p
 When we get over to the JSON tab it will give us the ability to code exactly what we want. Copy your created code/cloned repository and paste here. You will need to gather credentials for the highlighted portion. You can find these credentials in the topic tab. Make sure when pasting that it is within the quotation marks. 
 ![image](https://github.com/user-attachments/assets/9c39aa3b-37e1-459f-ab3e-bf4a560ce472)
 ![image](https://github.com/user-attachments/assets/a577e7d4-d354-40c6-b416-5e9130f377f7)
+
+**Create The Lambda Role** 
+Next we will create a role to assign the policy to. You will also find this in the IAM section. Choose AWS Service for the type and Lambda for the use case. 
+![image](https://github.com/user-attachments/assets/338b85f7-1a4f-4538-b7c1-9c7fc5d28daa)
+![image](https://github.com/user-attachments/assets/c65ba210-6daf-489d-b64a-1fbf69f2d214)
+
+Once the role has been created we're going to assign the policies to the role. Search up the name of the policy you created a couple steps back, then add an additional role called the Basic Execution Role. 
+![image](https://github.com/user-attachments/assets/3982ff5a-7f58-43b9-810e-ec8f44e79c97)
+
+
