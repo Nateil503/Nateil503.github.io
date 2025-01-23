@@ -8,10 +8,15 @@ AWS Lambda function will send a request to the Sports API and return data that w
 The data push will be scheduled through Eventbridge which gives periodic updates and initiates the lambda function to make the request. 
 
 **PROCESS** 
-Log into the console and go to the 'SNS' page. Create a topic. This one will be 'gd-topic' for Game Day Topic. 
+Log into the console and go to the 'SNS' page. Create a topic. This one will be 'gd-topic' for Game Day Topic. Make sure to choose standard for the topic type.
 ![image](https://github.com/user-attachments/assets/ae1f77f1-3efe-4976-9ed5-71a1e9ad5f2c)
-Make sure to choose standard for the topic type. 
-
+ 
 Next we will create a subscription for the updates to be sent through. 
 ![image](https://github.com/user-attachments/assets/ac778cd3-55b1-498f-8d36-b0aafec4e357)
 ![image](https://github.com/user-attachments/assets/1625be27-68c5-4361-a92b-8f1b75d40eda)
+![image](https://github.com/user-attachments/assets/156c3a80-7a93-4808-af66-0bef42a87f6d)
+
+After subscribing, you should receive an email asking for confirmation of the subscription. As well as a status message from the dashboard claiming confirmation. 
+![image](https://github.com/user-attachments/assets/fb7dd480-6d3c-4f18-8fcd-9678620707e6)
+![image](https://github.com/user-attachments/assets/e7649218-2a10-4316-8186-a9efa3963cc5)
+![image](https://github.com/user-attachments/assets/1e045556-e0d3-4a6e-930b-f705b8f9efc4)
