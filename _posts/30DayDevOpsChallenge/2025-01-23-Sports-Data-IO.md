@@ -76,8 +76,18 @@ Go to 'Eventbridge' within the applications. You will need to create a rule.
 ![image](https://github.com/user-attachments/assets/a83aaa2b-9473-45a5-a14a-7ae32a32d3a3)
 
 The next step is to determine its frequency. We're gonna go with a recurring schedule. The option of Cron-based scheduling allows for a specific time to update, rather than a set frequency of updates (eg. every 10 mins). You can get more specific through the Cron expression. 
-![image](https://github.com/user-attachments/assets/e40896e3-abcf-475f-b79d-f0852f009aa6)
+![image](https://github.com/user-attachments/assets/c16a2557-a51a-453b-a1ee-a2a7581a5436)
+
 
 The value boxes coordinate with the specific time frames as well as the frequency. In the screenshot, the 9-23 represents the hours that it will be running (Military time), and the '/2' represents the frequency. So this reads that from 9am-11pm you will get updates every 2 hours. 
-![image](https://github.com/user-attachments/assets/81dc054c-d5d2-42d0-b61e-f9469e87f186)
 
+Next, select your target. Since we are coding with a Lambda function, we would need to choose Invoke. The screen will auto-scroll down to the JSON script, and from the drop down menu you choose the function you want to invoke. It will be the 'gd_notifications' that we created before. 
+![image](https://github.com/user-attachments/assets/241a5154-5544-4c1a-b59d-e67d4c579788)
+
+![image](https://github.com/user-attachments/assets/5cce86f3-f54f-4ddc-8442-ac287f87075d)
+
+Continue to click next until the rule has been fully created. The dashboard should look like this after. 
+![image](https://github.com/user-attachments/assets/392bec3d-fd44-4adf-86e2-959c9c209425)
+
+Depending on your frequency, and when you made the rule, the push notification will vary. I finished the project really close to one of the update times and here we are receiving an update.
+![image](https://github.com/user-attachments/assets/2dbca1f7-ac00-4109-8200-501062bdcdef)
