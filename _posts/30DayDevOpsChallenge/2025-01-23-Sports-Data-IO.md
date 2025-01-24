@@ -45,3 +45,13 @@ Once the role has been created we're going to assign the policies to the role. S
 Create the Lambda Function and make sure it says 'Author from Scratch'. Choose your desired programming language. Then click the dropdown of the default execution role and choose 'use an existing role'. Here you will select the role created earlier. 
 ![image](https://github.com/user-attachments/assets/811411cf-d302-47c1-8025-0a16acf16f2d)
 
+After fully creating the role, they will give you a visual section for the code. This is where you will paste the Notification code. After pasting, click the deploy option on the left. 
+![image](https://github.com/user-attachments/assets/62601eaf-b0af-4d15-8240-c7d51fd37a5f)
+
+Here you will grab the API from your SportsDataIO account. Go into account and it will take you to the area with your subscription. I have more interest in football than basketball so I opted for the NFL subscription. 
+![image](https://github.com/user-attachments/assets/577acd6f-aea8-488a-8c47-58a9e7749cb9)
+
+Go into the environment variables and edit them. This would be found under 'configuration' + 'environment variables'. Select Add Environment Variable. There you will provide the API key as well as the SNS topic key. 
+![image](https://github.com/user-attachments/assets/3ae384a7-8cd3-47df-b688-8e932481f877)
+
+
