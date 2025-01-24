@@ -24,7 +24,7 @@ After subscribing, you should receive an email asking for confirmation of the su
 ![image](https://github.com/user-attachments/assets/1e045556-e0d3-4a6e-930b-f705b8f9efc4)
 
 
-**Create The Lambda Function Policy**
+**Create The Lambda Policy**
 Go to the IAM section, probably best to open it up in a different tab. Go into policies and create one. When selecting a service, choose SNS. It will then ask you what to input, where we will switch over to the JSON tab. 
 ![image](https://github.com/user-attachments/assets/c6cc2326-5052-489f-940c-f18027c72fb0)
 
@@ -39,5 +39,9 @@ Next we will create a role to assign the policy to. You will also find this in t
 
 Once the role has been created we're going to assign the policies to the role. Search up the name of the policy you created a couple steps back, then add an additional role called the Basic Execution Role. 
 ![image](https://github.com/user-attachments/assets/3982ff5a-7f58-43b9-810e-ec8f44e79c97)
+![image](https://github.com/user-attachments/assets/0ce14e7f-26f9-4ef1-a200-37f62629a372)
 
+**Create The Lambda Function**
+Create the Lambda Function and make sure it says 'Author from Scratch'. Choose your desired programming language. Then click the dropdown of the default execution role and choose 'use an existing role'. Here you will select the role created earlier. 
+![image](https://github.com/user-attachments/assets/811411cf-d302-47c1-8025-0a16acf16f2d)
 
