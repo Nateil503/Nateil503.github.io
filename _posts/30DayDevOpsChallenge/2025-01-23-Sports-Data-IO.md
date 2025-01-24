@@ -26,7 +26,7 @@ After subscribing, you should receive an email asking for confirmation of the su
 
 **Create The Lambda Policy**
 Go to the IAM section, probably best to open it up in a different tab. Go into policies and create one. When selecting a service, choose SNS. It will then ask you what to input, where we will switch over to the JSON tab. 
-![image](https://github.com/user-attachments/assets/c6cc2326-5052-489f-940c-f18027c72fb0)
+![image](https://github.com/user-attachments/assets/88dd1c36-f722-4aab-9b5d-47c7a624a2c2)
 
 When we get over to the JSON tab it will give us the ability to code exactly what we want. Copy your created code/cloned repository and paste here. You will need to gather credentials for the highlighted portion. You can find these credentials in the topic tab. Make sure when pasting that it is within the quotation marks. 
 ![image](https://github.com/user-attachments/assets/9c39aa3b-37e1-459f-ab3e-bf4a560ce472)
