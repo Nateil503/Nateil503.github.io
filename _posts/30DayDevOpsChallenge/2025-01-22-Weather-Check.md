@@ -1,4 +1,4 @@
-# 30DayChallenge-Weather
+# Weather Dashboard
 **PROJECT STRUCTURE**
 ```
 weather-dashboard/
