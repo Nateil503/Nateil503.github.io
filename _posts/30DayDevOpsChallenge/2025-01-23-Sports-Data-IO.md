@@ -7,7 +7,7 @@ The flow of this project should follow as such:
 AWS Lambda function will send a request to the Sports API and return data that will be pushed out to the receiver via SMS or Email. 
 The data push will be scheduled through Eventbridge which gives periodic updates and initiates the lambda function to make the request. 
 
-**PROCESS** 
+# PROCESS 
 
 **Create the Topic**
 Log into the console and go to the 'SNS' page. Create a topic. This one will be 'gd-topic' for Game Day Topic. Make sure to choose standard for the topic type.
@@ -54,7 +54,7 @@ Here you will grab the API from your SportsDataIO account. Go into account and i
 Go into the environment variables and edit them. This would be found under 'configuration' + 'environment variables'. Select Add Environment Variable. There you will provide the API key as well as the SNS topic key. 
 ![image](https://github.com/user-attachments/assets/3ae384a7-8cd3-47df-b688-8e932481f877)
 
-**TEST**
+# TEST
 
 Once you have your environment variables set up, you will go in and make any corrections in the code to make the information more accurate. This could be the time-zone as well as what sport. You will then test the code to see if it works, you'll do so by going into the 'test' tab and creating a new test. 
 ![image](https://github.com/user-attachments/assets/c68c73c8-2edf-42ad-8db6-966452fd5968)
