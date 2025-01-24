@@ -69,3 +69,15 @@ After confirming the endpoint works, continue on to testing. When testing, you s
 You should also receive a push notification in your email. 
 ![image](https://github.com/user-attachments/assets/c1a65357-f51c-47ce-9130-c8453797c8c4)
 
+**SCHEDULING**
+
+Go to 'Eventbridge' within the applications. You will need to create a rule. 
+
+![image](https://github.com/user-attachments/assets/a83aaa2b-9473-45a5-a14a-7ae32a32d3a3)
+
+The next step is to determine its frequency. We're gonna go with a recurring schedule. The option of Cron-based scheduling allows for a specific time to update, rather than a set frequency of updates (eg. every 10 mins). You can get more specific through the Cron expression. 
+![image](https://github.com/user-attachments/assets/e40896e3-abcf-475f-b79d-f0852f009aa6)
+
+The value boxes coordinate with the specific time frames as well as the frequency. In the screenshot, the 9-23 represents the hours that it will be running (Military time), and the '/2' represents the frequency. So this reads that from 9am-11pm you will get updates every 2 hours. 
+![image](https://github.com/user-attachments/assets/81dc054c-d5d2-42d0-b61e-f9469e87f186)
+
