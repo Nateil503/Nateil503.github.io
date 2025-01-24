@@ -1,4 +1,4 @@
-**SPORTS DATA IO**
+# SPORTS DATA IO
 
 The flow of this project should follow as such: 
 
