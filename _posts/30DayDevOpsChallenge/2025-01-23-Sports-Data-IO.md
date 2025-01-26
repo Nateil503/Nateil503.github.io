@@ -91,3 +91,8 @@ Continue to click next until the rule has been fully created. The dashboard shou
 
 Depending on your frequency, and when you made the rule, the push notification will vary. I finished the project really close to one of the update times and here we are receiving an update.
 ![image](https://github.com/user-attachments/assets/2dbca1f7-ac00-4109-8200-501062bdcdef)
+
+
+**UPDATE** 
+After letting the app sit a bit, I waited until today's date to keep it enabled so I could truly see the realtime updates. Here's what the email looks like
+![image](https://github.com/user-attachments/assets/56c5b26d-a238-407a-bc3f-5f004fddf7bb)
