@@ -94,5 +94,5 @@ Depending on your frequency, and when you made the rule, the push notification w
 
 
 **UPDATE** 
-After letting the app sit a bit, I waited until today's date to keep it enabled so I could truly see the realtime updates. Here's what the email looks like
+After letting the app sit a bit, I waited until today's date (01/26/2025) to keep it enabled so I could truly see the realtime updates. Here's what the email looks like
 ![image](https://github.com/user-attachments/assets/56c5b26d-a238-407a-bc3f-5f004fddf7bb)
